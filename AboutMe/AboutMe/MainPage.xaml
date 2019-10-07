@@ -5,12 +5,116 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
              x:Class="AboutMe.MainPage">
+               
 
     <StackLayout>
         <!-- Place new controls here -->
+
+        <Grid>
+
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+        
         <Label Text="Adam Biby" 
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
+
+        <Frame CornerRadius="5"
+               BackgroundColor="White"
+               HasShadow="True"
+               Margin="20"
+               Opacity="0.9"
+               Grid.Row="0"
+               Grid.Column="1">
+            
+            <StackLayout>
+                
+                <BoxView BackgroundColor="LightGray"
+                     HeightRequest="200"
+                     WidthRequest="100" />
+
+
+            <Label Text="About Me" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+                
+                </StackLayout>
+        </Frame>
+
+            <Frame CornerRadius="5"
+               BackgroundColor="White"
+               HasShadow="True"
+               Margin="20"
+               Opacity="0.9"
+               Grid.Row="0"
+               Grid.Column="0">
+
+                <StackLayout>
+
+                    <BoxView BackgroundColor="LightGray"
+                     HeightRequest="200"
+                     WidthRequest="100" />
+
+
+                    <Label Text="Adam Biby" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+                </StackLayout>
+            </Frame>
+
+            <Frame CornerRadius="5"
+               BackgroundColor="White"
+               HasShadow="True"
+               Margin="20"
+               Opacity="0.9"
+               Grid.Row="1"
+               Grid.Column="0">
+
+                <StackLayout>
+
+                    <BoxView BackgroundColor="LightGray"
+                     HeightRequest="200"
+                     WidthRequest="100" />
+
+
+                    <Label Text="Skills" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+                </StackLayout>
+            </Frame>
+
+            <Frame CornerRadius="5"
+               BackgroundColor="White"
+               HasShadow="True"
+               Margin="20"
+               Opacity="0.9"
+               Grid.Row="1"
+               Grid.Column="1">
+
+                <StackLayout>
+
+                    <BoxView BackgroundColor="LightGray"
+                     HeightRequest="200"
+                     WidthRequest="100" />
+
+
+                    <Label Text="Contact Info" 
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+
+                </StackLayout>
+            </Frame>
+
+        </Grid>
     </StackLayout>
 
 </ContentPage>
