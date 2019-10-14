@@ -26,13 +26,30 @@
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
 
-        <Frame CornerRadius="5"
+            <Button 
+                BackgroundColor="Red" 
+                Text="About Me"
+                Clicked="Button_Clicked"/>
+            <Button
+                BackgroundColor="Red" 
+                Text="Contact" 
+                Clicked="Button_Clicked_1"/>
+            <Button 
+                BackgroundColor="Red" 
+                Text="Skills" 
+                Clicked="Button_Clicked_2"/>
+
+            <Frame CornerRadius="5"
                BackgroundColor="White"
                HasShadow="True"
                Margin="20"
                Opacity="0.9"
                Grid.Row="0"
                Grid.Column="1">
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Button_Clicked"></TapGestureRecognizer>
+                </Frame.GestureRecognizers>
             
             <StackLayout>
                 

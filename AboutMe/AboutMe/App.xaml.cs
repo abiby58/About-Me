@@ -10,7 +10,9 @@ namespace AboutMe
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            About_Me_Page = new NavigationPage( new About_Me_Page());
+            Contact_Page = new NavigationPage( new Contact_Page());
+            Skills_Page = new NavigationPage( new Skills_Page());
         }
 
         protected override void OnStart()
