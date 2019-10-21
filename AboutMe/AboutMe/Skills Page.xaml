@@ -4,10 +4,15 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             Title="Skills"
+             BackgroundColor="Black"
              x:Class="AboutMe.Skills_Page">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="My Skills"
+            <Label 
+                Text="My Skills"
+                FontSize="32"
+                TextColor="White"
                 VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>

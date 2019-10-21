@@ -4,12 +4,28 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
+             Title="About Me"
+             BackgroundColor="Black"
              x:Class="AboutMe.About_Me_Page">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="About Me"
-                VerticalOptions="CenterAndExpand" 
-                HorizontalOptions="CenterAndExpand" />
+            
+            <Label 
+                   Text="Adam Biby"
+                   FontSize ="32"
+                   TextColor="White"
+                   HorizontalOptions="Center"/>
+
+            <Label/>
+
+            <Label
+                Text="Lorem Ipsum"
+                TextColor="White"
+                HorizontalOptions="Center"
+                FontSize="16"/>
+
+            <Label/>
+
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

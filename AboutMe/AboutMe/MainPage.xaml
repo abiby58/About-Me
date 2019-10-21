@@ -7,10 +7,9 @@
              BackgroundColor="Black"
              mc:Ignorable="d"
              x:Class="AboutMe.MainPage">
-               
+
 
     <StackLayout>
-        <!-- Place new controls here -->
 
         <Grid>
 
@@ -22,20 +21,8 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-        
-
-            <!--<Button 
-                BackgroundColor="Red" 
-                Text="About Me"
-                Clicked="Button_Clicked"/>
-            <Button
-                BackgroundColor="Red" 
-                Text="Contact" 
-                Clicked="Button_Clicked_1"/>
-            <Button 
-                BackgroundColor="Red" 
-                Text="Skills" 
-                Clicked="Button_Clicked_2"/>-->
+            
+            <!-- Frame 1 = About Me, Frame 2 = Contact Info, Frame 3 = Skills -->
 
             <Frame 
                CornerRadius="5"
