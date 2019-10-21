@@ -18,17 +18,17 @@ namespace AboutMe
             InitializeComponent();
         }
 
-        private void Button_Clicked(object sender, EventArgs e)
+        private void AboutMeButton_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new About_Me_Page());
         }
 
-        private void Button_Clicked_1(object sender, EventArgs e)
+        private void ContactButton_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new Contact_Page());
         }
 
-        private void Button_Clicked_2(object sender, EventArgs e)
+        private void SkillsButton_Clicked(object sender, EventArgs e)
         {
             Navigation.PushAsync(new Skills_Page());
         }

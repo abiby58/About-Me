@@ -39,7 +39,7 @@
 
             <Frame 
                CornerRadius="5"
-               BackgroundColor="Black"
+               BackgroundColor="Blue"
                HasShadow="True"
                Margin="20"
                Opacity="0.9"
@@ -47,28 +47,33 @@
                Grid.Column="0">
 
                 <Frame.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="Button_Clicked"></TapGestureRecognizer>
+                    <TapGestureRecognizer Tapped="AboutMeButton_Clicked"></TapGestureRecognizer>
                 </Frame.GestureRecognizers>
             
-            <StackLayout>
+            <StackLayout Orientation="Horizontal" Spacing="20">
                 
-                <BoxView BackgroundColor="Blue"
+                <BoxView BackgroundColor="Black"
                      HeightRequest="150"
                      WidthRequest="200" />
 
+                    <Image
+                           Source="https://img.icons8.com/wired/64/000000/about.png"
+                           WidthRequest="200"
+                           HeightRequest="150" />
 
-            <Label 
-           Text="About Me" 
-           TextColor="White"       
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+                   <Label 
+                        Text="About Me" 
+                        TextColor="White"  
+                        FontSize="24"
+                        HorizontalOptions="Center"
+                        VerticalOptions="CenterAndExpand" />
                 
                 </StackLayout>
         </Frame>
             
             <Frame 
                CornerRadius="5"
-               BackgroundColor="Black"
+               BackgroundColor="Blue"
                HasShadow="True"
                Margin="20"
                Opacity="0.9"
@@ -76,28 +81,33 @@
                Grid.Column="0">
 
                 <Frame.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="Button_Clicked_1"></TapGestureRecognizer>
+                    <TapGestureRecognizer Tapped="ContactButton_Clicked"></TapGestureRecognizer>
                 </Frame.GestureRecognizers>
 
-                <StackLayout>
+                <StackLayout Orientation="Horizontal" Spacing="20">
 
-                    <BoxView BackgroundColor="Blue"
+                    <BoxView BackgroundColor="Black"
                      HeightRequest="150"
                      WidthRequest="200" />
 
+                    <Image
+                        HeightRequest="150"
+                        WidthRequest="200"
+                        Source="https://img.icons8.com/ios/50/000000/contacts.png"/>
 
                     <Label
-           Text="Contact Me"
-           TextColor="White"
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+                        Text="Contact Me"
+                        TextColor="White"
+                        FontSize="24"
+                        HorizontalOptions="Center"
+                        VerticalOptions="CenterAndExpand" />
 
                 </StackLayout>
             </Frame>
 
             <Frame 
                CornerRadius="5"
-               BackgroundColor="Black"
+               BackgroundColor="Blue"
                HasShadow="True"
                Margin="20"
                Opacity="0.9"
@@ -105,21 +115,26 @@
                Grid.Column="0">
 
                 <Frame.GestureRecognizers>
-                    <TapGestureRecognizer Tapped="Button_Clicked_2"></TapGestureRecognizer>
+                    <TapGestureRecognizer Tapped="SkillsButton_Clicked"></TapGestureRecognizer>
                 </Frame.GestureRecognizers>
 
-                <StackLayout>
+                <StackLayout Orientation="Horizontal" Spacing="20">
 
-                    <BoxView BackgroundColor="Blue"
+                    <BoxView BackgroundColor="Black"
                      HeightRequest="150"
                      WidthRequest="200" />
 
+                    <Image
+                        HeightRequest="150"
+                        WidthRequest="200"
+                        Source="https://img.icons8.com/carbon-copy/100/000000/development-skill.png"/>
 
                     <Label
-           Text="Skills"
-           TextColor="White"
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+                        Text="Skills"
+                        TextColor="White"
+                        HorizontalOptions="Center"
+                        FontSize="24"
+                        VerticalOptions="CenterAndExpand" />
 
                 </StackLayout>
             </Frame>
