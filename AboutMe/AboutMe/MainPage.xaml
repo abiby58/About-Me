@@ -3,6 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             Title="My Bio App"
+             BackgroundColor="Black"
              mc:Ignorable="d"
              x:Class="AboutMe.MainPage">
                
@@ -19,14 +21,10 @@
 
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="*"/>
-                <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
         
-        <Label Text="Adam Biby" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
 
-            <Button 
+            <!--<Button 
                 BackgroundColor="Red" 
                 Text="About Me"
                 Clicked="Button_Clicked"/>
@@ -37,15 +35,16 @@
             <Button 
                 BackgroundColor="Red" 
                 Text="Skills" 
-                Clicked="Button_Clicked_2"/>
+                Clicked="Button_Clicked_2"/>-->
 
-            <Frame CornerRadius="5"
-               BackgroundColor="White"
+            <Frame 
+               CornerRadius="5"
+               BackgroundColor="Black"
                HasShadow="True"
                Margin="20"
                Opacity="0.9"
                Grid.Row="0"
-               Grid.Column="1">
+               Grid.Column="0">
 
                 <Frame.GestureRecognizers>
                     <TapGestureRecognizer Tapped="Button_Clicked"></TapGestureRecognizer>
@@ -53,78 +52,72 @@
             
             <StackLayout>
                 
-                <BoxView BackgroundColor="LightGray"
-                     HeightRequest="200"
-                     WidthRequest="100" />
+                <BoxView BackgroundColor="Blue"
+                     HeightRequest="150"
+                     WidthRequest="200" />
 
 
-            <Label Text="About Me" 
+            <Label 
+           Text="About Me" 
+           TextColor="White"       
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
                 
                 </StackLayout>
         </Frame>
-
-            <Frame CornerRadius="5"
-               BackgroundColor="White"
-               HasShadow="True"
-               Margin="20"
-               Opacity="0.9"
-               Grid.Row="0"
-               Grid.Column="0">
-
-                <StackLayout>
-
-                    <BoxView BackgroundColor="LightGray"
-                     HeightRequest="200"
-                     WidthRequest="100" />
-
-
-                    <Label Text="Adam Biby" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
-
-                </StackLayout>
-            </Frame>
-
-            <Frame CornerRadius="5"
-               BackgroundColor="White"
+            
+            <Frame 
+               CornerRadius="5"
+               BackgroundColor="Black"
                HasShadow="True"
                Margin="20"
                Opacity="0.9"
                Grid.Row="1"
                Grid.Column="0">
 
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Button_Clicked_1"></TapGestureRecognizer>
+                </Frame.GestureRecognizers>
+
                 <StackLayout>
 
-                    <BoxView BackgroundColor="LightGray"
-                     HeightRequest="200"
-                     WidthRequest="100" />
+                    <BoxView BackgroundColor="Blue"
+                     HeightRequest="150"
+                     WidthRequest="200" />
 
 
-                    <Label Text="Skills" 
+                    <Label
+           Text="Contact Me"
+           TextColor="White"
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
 
                 </StackLayout>
             </Frame>
 
-            <Frame CornerRadius="5"
-               BackgroundColor="White"
+            <Frame 
+               CornerRadius="5"
+               BackgroundColor="Black"
                HasShadow="True"
                Margin="20"
                Opacity="0.9"
-               Grid.Row="1"
-               Grid.Column="1">
+               Grid.Row="2"
+               Grid.Column="0">
+
+                <Frame.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="Button_Clicked_2"></TapGestureRecognizer>
+                </Frame.GestureRecognizers>
 
                 <StackLayout>
 
-                    <BoxView BackgroundColor="LightGray"
-                     HeightRequest="200"
-                     WidthRequest="100" />
+                    <BoxView BackgroundColor="Blue"
+                     HeightRequest="150"
+                     WidthRequest="200" />
 
 
-                    <Label Text="Contact Info" 
+                    <Label
+           Text="Skills"
+           TextColor="White"
            HorizontalOptions="Center"
            VerticalOptions="CenterAndExpand" />
 
