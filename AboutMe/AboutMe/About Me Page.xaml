@@ -8,8 +8,16 @@
              BackgroundColor="Black"
              x:Class="AboutMe.About_Me_Page">
     <ContentPage.Content>
-        <StackLayout>
-            
+        <StackLayout Margin="20" Spacing="20">
+
+            <Image
+                HeightRequest="300"
+                WidthRequest="400"
+                HorizontalOptions="Center"
+                Source="IMG_0537.jpg"
+                />
+
+
             <Label 
                    Text="Adam Biby"
                    FontSize ="32"
@@ -19,10 +27,10 @@
             <Label/>
 
             <Label
-                Text="Lorem Ipsum"
+                Text="I was born in raised in Girard, Kansas, where I graduated from Girard High School in 2015. Since then, I have been pursuing a degree in Computer Information Systems at Pittsburg State University, where I am expected to graduate in May of 2020. Some of my hobbies and interests include fitness, sports, computers, electronics, and video games. My current goal is to graduate, find a job in a larger area, and pursue a career in IT while enjoying life to the fullest."
                 TextColor="White"
                 HorizontalOptions="Center"
-                FontSize="16"/>
+                FontSize="20"/>
 
             <Label/>
 

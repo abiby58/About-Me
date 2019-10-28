@@ -16,5 +16,13 @@ namespace AboutMe
         {
             InitializeComponent();
         }
+
+        private void ConfirmButton_Clicked(object sender, EventArgs e)
+        {
+            DisplayAlert("Thank you", "Your message has been delivered", "OK");
+        }
+        
+
+        
     }
 }
